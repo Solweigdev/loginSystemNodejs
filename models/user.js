@@ -15,7 +15,13 @@ const userSchema = new Schema({
             lowercase: true
         },
         password: {
-            type: String,
+            type: String
+        },
+        firstname: {
+            type: String
+        },
+        name: {
+            type: String
         }
     },
     google: {
